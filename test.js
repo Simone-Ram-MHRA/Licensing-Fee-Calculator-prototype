@@ -9,7 +9,7 @@ var rl = readline.createInterface({
   });
 
 
-rl.question("What do you think of node.js? ", function(answer) {
+rl.question("Has the active substance(s) of your product previously been authorised in the UK? ", function(answer) {
     console.log("Thank you for your valuable feedback:", answer);
     switch (answer) {
         case '1':
