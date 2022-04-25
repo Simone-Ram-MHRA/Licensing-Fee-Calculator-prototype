@@ -1,24 +1,33 @@
 const qBank = [
     {
       question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "099099"
+        "What is the type of your application ?",
+      answers: ["Initial marketing authorisation application", "Variation"],
+      correct: "Variation",
+      questionId: "1"
     },
     {
       question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
+        "What is the scope of your application?",
+      answers: [
+          "National (any other case including hybrid applications)",
+           "MRDC reliance procedure - Application for GB or UK excluding GB unfettered access route",
+           "EC Decision reliance procedure - Automatic recognition application", 
+           "Unfettered access route to GB (Previously granted by EU)",
+           "Incoming mutual recognition procedure for sale or supply in Northern Ireland and Unfettered access route for UKMA(GB)", 
+           "Decentralised procedure for sale or supply in Northern Ireland and Unfettered access route for UKMA(GB)",
+           "European reference product application for sale or supply in Northern Ireland"],
       correct: "vinayak",
-      questionId: "093909"
+      questionId: "2"
     },
     {
       question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
+        "Has the active substance(s) of your product previously been authorised in the UK?",
+      answers: [
+          "Yes", 
+          "No"],
       correct: "vinayak",
-      questionId: "009039"
+      questionId: "3"
     },
     {
       question:
@@ -41,84 +50,6 @@ const qBank = [
       correct: "vinayak",
       questionId: "092299"
     },
-    {
-      question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "099099"
-    },
-    {
-      question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "222099"
-    },
-    {
-      question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "2222099"
-    },
-    {
-      question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "09922099"
-    },
-    {
-      question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "222292099"
-    },
-    {
-      question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "0998999099"
-    },
-    {
-      question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "099099"
-    },
-    {
-      question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "099099"
-    },
-    {
-      question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "099099"
-    },
-    {
-      question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "09459099"
-    },
-    {
-      question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
-      correct: "vinayak",
-      questionId: "0912219099"
-    },
-    
   ];
     
   // n = 5 to export 5 question
