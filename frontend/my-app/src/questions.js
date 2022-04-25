@@ -31,17 +31,27 @@ const qBank = [
     },
     {
       question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
+        "Please confirm the legal basis of your application or whether you intend to submit an extension application:",
+      answers: [
+          "Regulation 50 (previously Article 8(3) of Directive 2001/83/EC)", 
+          "Regulation 50 Article 8(3)", 
+          "Article 10•	Article 10"],
       correct: "vinayak",
-      questionId: "090089"
+      questionId: "4"
     },
     {
       question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
+        "Is the legal basis of your application?",
+      answers: [
+          "Hybrid application - Regulation 52 (previously Article 10.3 of Directive 2001/83/EC)", 
+          "Generic Hybrid", 
+          "Well-established Use", 
+          "New Fixed Combination",
+          "Informed Consent",
+          "Biosimilars",
+          "Generic Product"],
       correct: "vinayak",
-      questionId: "01010101"
+      questionId: "5"
     },
     {
       question:
@@ -50,6 +60,56 @@ const qBank = [
       correct: "vinayak",
       questionId: "092299"
     },
+    {
+      question:
+        "how build the app ?",
+      answers: ["vinayak", "sarthak", "somil", "devesh"],
+      correct: "vinayak",
+      questionId: "092299"
+    },
+    {
+        question:
+          "how build the app ?",
+        answers: ["vinayak", "sarthak", "somil", "devesh"],
+        correct: "vinayak",
+        questionId: "0998999099"
+      },
+      {
+        question:
+          "how build the app ?",
+        answers: ["vinayak", "sarthak", "somil", "devesh"],
+        correct: "vinayak",
+        questionId: "099099"
+      },
+      {
+        question:
+          "how build the app ?",
+        answers: ["vinayak", "sarthak", "somil", "devesh"],
+        correct: "vinayak",
+        questionId: "099099"
+      },
+      {
+        question:
+          "how build the app ?",
+        answers: ["vinayak", "sarthak", "somil", "devesh"],
+        correct: "vinayak",
+        questionId: "099099"
+      },
+      {
+        question:
+          "how build the app ?",
+        answers: ["vinayak", "sarthak", "somil", "devesh"],
+        correct: "vinayak",
+        questionId: "09459099"
+      },
+      {
+        question:
+          "how build the app ?",
+        answers: ["vinayak", "sarthak", "somil", "devesh"],
+        correct: "vinayak",
+        questionId: "0912219099"
+      },
+
   ];
     
   // n = 5 to export 5 question
