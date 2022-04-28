@@ -126,7 +126,7 @@ const qBank = [
           "how build the app ?",
         answers: ["vinayak", "sarthak", "somil", "devesh"],
         correct: "vinayak",
-        questionId: "09459099"
+        questionId: "12"
       },
       {
         question:
