@@ -55,17 +55,27 @@ const qBank = [
     },
     {
       question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
+        "Please confirm the legal basis of your application or whether you intend to submit an extension application:?",
+      answers: [
+        "Regulation 50 (previously Article 8(3) of Directive 2001/83/EC)", 
+        "Regulation 50 Article 8(3)", 
+         "Article 10"],
       correct: "vinayak",
-      questionId: "092299"
+      questionId: "6"
     },
     {
       question:
-        "how build the app ?",
-      answers: ["vinayak", "sarthak", "somil", "devesh"],
+        "Is the legal basis of your application ?",
+      answers: [
+        "Hybrid application - Regulation 52 (previously Article 10.3 of Directive 2001/83/EC)", 
+        "10(3) - Generic Hybrid",
+        "10(a) - Well-established use",
+        "10(b) - New Fixed Combination",
+        "10(c) - Informed Consent",
+        "10(4) – Biosimilars",
+        "10(1) - Generic Product"],
       correct: "vinayak",
-      questionId: "092299"
+      questionId: "7"
     },
     {
         question:
