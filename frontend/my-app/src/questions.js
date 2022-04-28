@@ -79,31 +79,75 @@ const qBank = [
     },
     {
         question:
-          "how build the app ?",
-        answers: ["vinayak", "sarthak", "somil", "devesh"],
+          "Does any of the following apply to your application(s) ?",
+        answers: [
+          "The application lists a new source of active substance not covered by: A European Pharmacopoeia certificate of suitability (CEP) or An ASMF which has been assessed and accepted as part of an authorised medicinal product in the UK", 
+          "The application concerns a new route/method of synthesis for active substance.",
+          "The application concerns use of the active substance for a new population or a new clinical indication.",
+          "The application concerns a new route of administration, or a new method of administration to the site of action or absorption.",
+          "The product is presented as a modified/controlled release dosage form or presented as a metered dose/powder inhaler.",  
+          "The application is for a sterile product which uses a new sterilisation method or container material in direct contact with the product.",
+          "The application for a new influenza vaccine, or a new manufacturer of strain, or an influenza vaccine using a new manufacturer or manufacturing process.",
+          "The application includes a new excipient not previously used in the UK.",
+          "None of the above"],
         correct: "vinayak",
-        questionId: "0998999099"
+        questionId: "8"
+      },
+      {
+        question:
+          "Does your application relate to ?",
+        answers: [
+          "Type IA/IAIN/IA Group", 
+          "Type IB", 
+          "Type II", 
+          "THR",
+          "Homeopathic"],
+        correct: "vinayak",
+        questionId: "9"
+      },
+      {
+        question:
+          "Does your application consist of a ?",
+        answers: [
+          "Single",
+          "Grouph"],
+        correct: "vinayak",
+        questionId: "10"
+      },
+      {
+        question:
+          "What is the route of your variation??",
+        answers: ["National", "Chapter II of EC 1234/2008 and/or Reliance/Recognition"],
+        correct: "vinayak",
+        questionId: "11"
       },
       {
         question:
           "how build the app ?",
         answers: ["vinayak", "sarthak", "somil", "devesh"],
         correct: "vinayak",
-        questionId: "099099"
+        questionId: "09459099"
       },
       {
         question:
           "how build the app ?",
         answers: ["vinayak", "sarthak", "somil", "devesh"],
         correct: "vinayak",
-        questionId: "099099"
+        questionId: "0912219099"
       },
       {
         question:
           "how build the app ?",
         answers: ["vinayak", "sarthak", "somil", "devesh"],
         correct: "vinayak",
-        questionId: "099099"
+        questionId: "09459099"
+      },
+      {
+        question:
+          "how build the app ?",
+        answers: ["vinayak", "sarthak", "somil", "devesh"],
+        correct: "vinayak",
+        questionId: "0912219099"
       },
       {
         question:
